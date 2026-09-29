@@ -37,7 +37,7 @@ fun UserInformationScreen( viewModel: UserInformationViewModel = koinViewModel()
         Button(onClick = {
             viewModel.emitEvent(UserInformationEvent.OnSubmit)
         }) {
-            Text("Buscar")
+            Text("Busca")
         }
         state.value.email?.let {
             Text(it)

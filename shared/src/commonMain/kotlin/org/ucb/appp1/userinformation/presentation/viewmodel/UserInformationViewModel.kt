@@ -36,7 +36,6 @@ class UserInformationViewModel(
                             }
                         },
                         onFailure = {
-
                         }
                     )
                 }
